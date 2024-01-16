@@ -26,7 +26,7 @@ snake.push({
     yNext: 0,
     pinta: function(){
         ctx.font = '25px Serif';
-        ctx.fillText('🐌', this.x * 20, this.y * 20);
+        ctx.fillText('🐶', this.x * 20, this.y * 20);
 
     }
 })
@@ -37,7 +37,7 @@ snake.push({
     yNext: 1,
     pinta: function(){
         ctx.font = '25px Serif';
-        ctx.fillText('🟢', this.x * 20, this.y * 20);
+        ctx.fillText('🟤', this.x * 20, this.y * 20);
     }
 })
 snake.push({
@@ -47,7 +47,7 @@ snake.push({
     yNext: 1,
     pinta: function(){
         ctx.font = '25px Serif';
-        ctx.fillText('🟢', this.x * 20, this.y * 20);
+        ctx.fillText('🟤', this.x * 20, this.y * 20);
     }
 })
 return snake;
@@ -66,7 +66,7 @@ const comida = {
     },
     pinta: function(){
         ctx.font = '25px Serif';
-        ctx.fillText('🍔', this.x * 20, this.y * 20);
+        ctx.fillText('🌭', this.x * 20, this.y * 20);
     }
     
 }
